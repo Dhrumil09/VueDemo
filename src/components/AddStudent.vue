@@ -105,6 +105,6 @@ button:focus {
 }
 
 .small-container {
-  max-width: 680px;
+  max-width: 1000px;
 }
 </style>

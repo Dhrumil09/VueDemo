@@ -73,7 +73,8 @@ export default {
     },
     checkCrendentials(){
       if(this.User.UserID === "Dhrumil" && this.User.Password === "123456"){
-        this.$router.push({ name: "AddStudent" });
+        this.$store.commit('changeUserName',this.User.UserID);
+        this.$router.push({ name: "Home" });
       }else{
         this.notValid =true;
         return;
