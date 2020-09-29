@@ -62,7 +62,7 @@ export default {
         return;
       }
 
-      this.$emit("add:student", this.Student);
+      this.$store.dispatch("addStudent",this.Student);
       this.$refs.first.focus();
       this.Student = {
         name: "",
