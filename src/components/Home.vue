@@ -8,6 +8,8 @@
 
     <v-navigation-drawer v-model="drawer" app>
       <v-list dense>
+
+      <v-list dense>
         <v-list-item
           ><v-spacer
             ><h1>{{ $store.getters.getUserName }}</h1></v-spacer
