@@ -6,6 +6,11 @@
       @delete:student="deleteStudent"
       @edit:student="editStudent"
     />
+    <StudentTable
+      :student="student"
+      @delete:student="deleteStudent"
+      @edit:student="editStudent"
+    />
   </div>
 </template>
 <script>
